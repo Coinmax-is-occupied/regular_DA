@@ -25,9 +25,9 @@ def read_mysql_to_xlsx(filename):
     for i in range(len(list_table_head)):
         sheet.write(0, i, list_table_head[i])
 
-    config = {'host': '172.104.94.252',
-              'user': 'user216',
-              'password': 'funkey520',
+    config = {'host': '',
+              'user': '',
+              'password': '',
               'port': 3306,
               'database': 'airbnb_db',
               'charset': 'utf8'}
